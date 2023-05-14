@@ -1,0 +1,26 @@
+// Footer.
+$footer-background-color: $light-color
+$footer-info-background-color: $white
+
+footer
+  .region
+    +container
+
+  .site-footer
+    background-color: $footer-background-color
+    padding: $container-padding
+
+    .region-footer
+      align-items: center
+      display: flex
+      flex-flow: row wrap
+      justify-content: flex-end
+
+    &__info
+      background-color: $footer-info-background-color
+      padding: $container-padding
+
+      .region-footer-info
+        display: flex
+        flex-flow: row wrap
+        justify-content: center

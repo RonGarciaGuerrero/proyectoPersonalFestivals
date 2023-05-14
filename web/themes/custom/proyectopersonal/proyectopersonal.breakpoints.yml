@@ -1,0 +1,42 @@
+proyectopersonal.x-small:
+  label: x-small
+  mediaQuery: '22.5em'
+  weight: 0
+  multipliers:
+    - 1x
+proyectopersonal.small:
+  label: small
+  mediaQuery: '30em'
+  weight: 1
+  multipliers:
+    - 1x
+proyectopersonal.medium:
+  label: medium
+  mediaQuery: '44em'
+  weight: 2
+  multipliers:
+    - 1x
+proyectopersonal.large:
+  label: large
+  mediaQuery: '64em'
+  weight: 3
+  multipliers:
+    - 1x
+proyectopersonal.x-large:
+  label: x-large
+  mediaQuery: '75em'
+  weight: 4
+  multipliers:
+    - 1x
+proyectopersonal.xx-large:
+  label: xx-large
+  mediaQuery: '82em'
+  weight: 5
+  multipliers:
+    - 1x
+proyectopersonal.monster:
+  label: monster
+  mediaQuery: '118.750em'
+  weight: 6
+  multipliers:
+    - 1x
