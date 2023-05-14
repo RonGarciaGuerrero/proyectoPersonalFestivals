@@ -1926,6 +1926,34 @@ footer .site-footer__info .region-footer-info {
   margin-left: 1rem;
 }
 
+.view-festivales .view-content .views-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.view-festivales .view-content .views-row .views-field-field-logo {
+  width: 50%;
+}
+
+.view-festivales .view-content .views-row .views-field-body {
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 400px;
+}
+
+.view-festivales .view-content .views-row::after {
+  content: '...';
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+}
+
 .view .view-header {
   margin-bottom: 2rem;
 }
