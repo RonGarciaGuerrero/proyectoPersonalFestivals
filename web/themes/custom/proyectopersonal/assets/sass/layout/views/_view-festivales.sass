@@ -1,25 +1,25 @@
 .view-festivales
   .view-content
     .views-row
-      display: flex
-      flex-wrap: nowrap
       align-items: flex-start
+      display: flex
       flex-direction: row
+      flex-wrap: nowrap
 
       .views-field-field-logo
         width: 50%
 
       .views-field-body
-        width: 50%
+        height: 400px
         overflow: hidden
         text-overflow: ellipsis
-        height: 400px
+        width: 50%
 
       &::after
+        bottom: 3px
         content: '...'
         display: block
-        width: 20px
         height: 20px
         position: absolute
-        bottom: 3px
         right: 0
+        width: 20px
